@@ -3,6 +3,7 @@
 
  run
  ./bin/zookeeper-server-start.sh config/zookeeper.properties
+ 
  bin/kafka-server-start.sh config/server.properties 
  go postman 
  http://localhost:8080/api/kafka  =>post
